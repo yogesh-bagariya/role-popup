@@ -1,0 +1,55 @@
+.each-row {
+    width: 100%;
+    gap: 24px;
+    position: relative;
+}
+
+.each-row input {
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+    height: 34px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding-left: 6px;
+    border-radius: 4px;
+}
+
+.each-row input:hover {
+    outline: none;
+    background-color: #f0f0f0;
+}
+
+.each-row input::placeholder {
+    outline: none;
+    font-size: 16px;
+}
+
+.each-row .abs-input {
+    position: absolute;
+    display: inline-flex;
+    left: 286px;
+    transform: translateX(-100%);
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.each-row .abs-input:hover {
+    background-color: lightgrey;
+}
+
+.each-row input:focus {
+    outline: none;
+    padding-left: 6px;
+    border: 1px solid #4e4949;
+}
+
+.each-row > div {
+    width: 150px;
+    justify-content: center;
+}
+
+.each-row .single-value {
+    width: 150px;
+}

@@ -1,0 +1,106 @@
+.popover-container {
+  width: 50vw;
+  box-shadow: 0 0.5vh 1vh rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: white;
+}
+
+.header .header-bottom {
+  height: 34px;
+  padding-right: 24px;
+}
+
+.header .header-bottom .subtext-wrapper {
+  gap: 1vw;
+}
+
+.header .header-bottom .dropdown-wrapper {
+  gap: 8px;
+}
+
+.header .header-bottom .dropdown-wrapper .dropdown{
+  width: 100px;
+}
+
+.header .heading-text {
+  font-size: 2vw;
+  line-height: 150%;
+  letter-spacing: 0.1vw;
+}
+
+.header .header-bottom .subtext-wrapper .sub-text {
+  font-size: 1vw;
+  line-height: 150%;
+  letter-spacing: 0.05vw;
+}
+
+.table {
+  gap: 6px;
+  margin: 12px 0;
+}
+
+.table .table-head {
+  gap: 24px;
+  padding-right: 24px;
+}
+
+.table .table-head .table-head-text {
+  font-size: 16px;
+  width: 150px;
+  color: #c0c0c0;
+  gap: 4px;
+}
+
+.table .table-head .table-head-text:nth-child(1) {
+  width: 300px;
+  padding: 1px 4px;
+}
+
+.table .table-body {
+  height: 225px;
+  gap: 4px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding-right: 24px;
+}
+
+.table-body::-webkit-scrollbar {
+  width: 8px;
+}
+
+.table-body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.table-body::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px;
+
+}
+
+.table-body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.footer {
+    padding: 24px;
+}
+.footer .btn-submit {
+  padding: 8px 16px;
+  background-color: #00ced1;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.footer .btn-submit:hover {
+  background-color: #008b8b;
+  cursor: pointer;
+}
+
+.footer .disable {
+  background-color: grey !important;
+  cursor: auto;
+}

@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,55 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  background-color: #FFFAFA;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.center-justify {
+  justify-content: center;
+}
+
+.center-align {
+  align-items: center;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.p-16 {
+  padding: 16px;
+}
+
+.m-16 {
+  margin: 16px;
+}
+
+.p-4 {
+  padding: 4px;
+}
+
+.m-4 {
+  margin: 4px;
+}
+
+.space-between-justify {
+  justify-content: space-between;
 }
